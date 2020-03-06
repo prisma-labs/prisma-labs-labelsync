@@ -37,6 +37,23 @@ const commonLabels = [
 //prettier-ignore
 export default [
   {
+    name: 'team',
+    destroyUnknownLabels: false,
+    labels: [
+      ...commonLabels,
+      type('process',        '#FFCF2D', ''),
+      type('process',        '#FFCF2D', ''),
+      type('epic',           '#FFCF2D', ''),
+      type('new-product',    '#FFCF2D', ''),
+      type('research',       '#FFCF2D', ''),
+      scope('integration'),
+      scope('nextjs'),
+      scope('nexus'),
+      scope('tooling'),
+      scope('workflow'),
+    ]
+  },
+  {
     name: 'dripip',
     destroyUnknownLabels: false,
     labels: [
