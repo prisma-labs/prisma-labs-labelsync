@@ -89,6 +89,8 @@ repos:
         color: 3267c9
       scope/doctor:
         color: 3267c9
+      scope/preview:
+        color: 3267c9
   nexus-prisma:
     strict: false
     labels:

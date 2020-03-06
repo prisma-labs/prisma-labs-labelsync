@@ -42,6 +42,7 @@ export default [
     labels: [
       ...commonLabels,
       scope('doctor'),
+      scope('preview'),
     ]
   },
   {
