@@ -2,7 +2,7 @@ repos:
   nexus-prisma:
     strict: false
     labels:
-      bug:
+      bug2:
         color: d73a4a
         description: Something isn't working
       documentation:

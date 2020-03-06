@@ -6,7 +6,7 @@ import { configuration, label, make, repository } from 'label-sync'
 export const github = repository({
   strict: false,
   labels: {
-    bug: label({
+    bug2: label({
       color: '#d73a4a',
       description: "Something isn't working",
     }),
