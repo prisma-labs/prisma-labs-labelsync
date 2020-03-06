@@ -2,30 +2,121 @@ repos:
   nexus-prisma:
     strict: false
     labels:
-      bug2:
-        color: d73a4a
-        description: Something isn't working
-      documentation:
-        color: 0075ca
-        description: Improvements or additions to documentation
-      duplicate:
-        color: cfd3d7
-        description: This issue or pull request already exists
-      enhancement:
-        color: a2eeef
-        description: New feature or request
-      good first issue:
+      type/feat:
+        color: 3BDB8D
+        description: Add a new capability or enhance an existing one
+      type/bug:
+        color: D73A4A
+        description: Something is not working the way it should
+      type/chore:
+        color: EEEEEE
+        description: 'Something that does not warrant a release, zero runtime impact'
+      type/perf:
+        color: FFCF2D
+        description: Improve the efficiency of something
+      type/docs:
+        color: FFCF2D
+        description: >-
+          Relates to knowledge transfer matter (refs, guides, tuts, examples,
+          ...)
+      type/tests:
+        color: FFCF2D
+        description: Internal tests
+      type/question:
+        color: FFCF2D
+      type/meta:
+        color: FFCF2D
+      type/refactor:
+        color: fcaeec
+        description: 'Address tech debt, internal incidental complexity'
+      type/improve:
+        color: fcaeec
+        description: >-
+          Something existing is made better, does not affect the interface
+          (example: better error message)
+      note/user-resolved:
+        color: EEEEEE
+      note/invalid:
+        color: EEEEEE
+        description: Initial assumptions turned out wrong
+      note/wontfix:
+        color: EEEEEE
+        description: Resolving the issue was explicitly ruled out
+      note/duplicate:
+        color: EEEEEE
+        description: This issue existed already
+      note/breaking-change:
+        color: EEEEEE
+        description: This issue existed already
+      note/prisma1:
+        color: EEEEEE
+        description: specific to the version of nexus-prisma based on Prisma 1
+      impact/high:
+        color: EEEEEE
+      impact/medium:
+        color: EEEEEE
+      impact/low:
+        color: EEEEEE
+      effort/hard:
+        color: EEEEEE
+      effort/modest:
+        color: EEEEEE
+      effort/easy:
+        color: EEEEEE
+      needs/upstream:
+        color: FFE601
+        description: An upstream component needs to be updated first
+      needs/discussion:
+        color: FFE601
+        description: >-
+          Open-ended conversation about something (ideation, design, analysis,
+          ...)
+      needs/clarification:
+        color: FFE601
+        description: Unable to answer question/feature without more info
+      needs/investigation:
+        color: FFE601
+        description: 'Possibly an issue, needs more analysis/research'
+      needs/use-cases:
+        color: FFE601
+        description: >-
+          More motivating examples needed to understand/appreciate
+          idea/tradeoffs
+      community/help-wanted:
+        color: 7057ff
+        description: 'Not our focus, but accepting PRs'
+      community/good-first-issue:
         color: 7057ff
         description: Good for newcomers
-      help wanted:
-        color: 008672
-        description: Extra attention is needed
-      invalid:
-        color: e4e669
-        description: This doesn't seem right
-      question:
-        color: d876e3
-        description: Further information is requested
-      wontfix:
-        color: '000000'
-        description: This will not be worked on
+      scope/architecture:
+        color: 3267c9
+      scope/auth:
+        color: 3267c9
+        description: Relates to Prisma crud/model auth
+      scope/config:
+        color: 3267c9
+      scope/crud:
+        color: 3267c9
+      scope/deps:
+        color: 3267c9
+      scope/distributed-data:
+        color: 3267c9
+      scope/mapping:
+        color: 3267c9
+      scope/projecting:
+        color: 3267c9
+        description: Exposing Prisma Models in the GQL API
+      scope/resolving:
+        color: 3267c9
+        description: Relates to implementing resolvers
+      scope/runtime-validation:
+        color: 3267c9
+      scope/schema:
+        color: 3267c9
+      scope/synchronized-projectors:
+        color: 3267c9
+      scope/typegen:
+        color: 3267c9
+        description: Relates to typegen/codegen systems
+      scope/workflow:
+        color: 3267c9
