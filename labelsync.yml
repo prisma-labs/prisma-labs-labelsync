@@ -84,9 +84,9 @@ repos:
         color: 7057ff
         description: Good for newcomers
       scope/deps:
-        color: 3267c9
+        color: 8cdeff
       scope/cicd:
-        color: 3267c9
+        color: 8cdeff
       type/process:
         color: FFCF2D
       type/epic:
@@ -96,15 +96,15 @@ repos:
       type/research:
         color: FFCF2D
       scope/integration:
-        color: 3267c9
+        color: 8cdeff
       scope/nextjs:
-        color: 3267c9
+        color: 8cdeff
       scope/nexus:
-        color: 3267c9
+        color: 8cdeff
       scope/tooling:
-        color: 3267c9
+        color: 8cdeff
       scope/workflow:
-        color: 3267c9
+        color: 8cdeff
   dripip:
     strict: false
     labels:
@@ -190,13 +190,13 @@ repos:
         color: 7057ff
         description: Good for newcomers
       scope/deps:
-        color: 3267c9
+        color: 8cdeff
       scope/cicd:
-        color: 3267c9
+        color: 8cdeff
       scope/doctor:
-        color: 3267c9
+        color: 8cdeff
       scope/preview:
-        color: 3267c9
+        color: 8cdeff
   nexus-prisma:
     strict: false
     labels:
@@ -282,41 +282,41 @@ repos:
         color: 7057ff
         description: Good for newcomers
       scope/deps:
-        color: 3267c9
+        color: 8cdeff
       scope/cicd:
-        color: 3267c9
+        color: 8cdeff
       type/meta:
         color: FFCF2D
       note/prisma1:
         color: EEEEEE
         description: specific to the version of nexus-prisma based on Prisma 1
       scope/architecture:
-        color: 3267c9
+        color: 8cdeff
       scope/auth:
-        color: 3267c9
+        color: 8cdeff
         description: Relates to Prisma crud/model auth
       scope/config:
-        color: 3267c9
+        color: 8cdeff
       scope/crud:
-        color: 3267c9
+        color: 8cdeff
       scope/distributed-data:
-        color: 3267c9
+        color: 8cdeff
       scope/mapping:
-        color: 3267c9
+        color: 8cdeff
       scope/projecting:
-        color: 3267c9
+        color: 8cdeff
         description: Exposing Prisma Models in the GQL API
       scope/resolving:
-        color: 3267c9
+        color: 8cdeff
         description: Relates to implementing resolvers
       scope/runtime-validation:
-        color: 3267c9
+        color: 8cdeff
       scope/schema:
-        color: 3267c9
+        color: 8cdeff
       scope/synchronized-projectors:
-        color: 3267c9
+        color: 8cdeff
       scope/typegen:
-        color: 3267c9
+        color: 8cdeff
         description: Relates to typegen/codegen systems
       scope/workflow:
-        color: 3267c9
+        color: 8cdeff

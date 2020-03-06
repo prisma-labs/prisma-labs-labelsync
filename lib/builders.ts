@@ -69,7 +69,7 @@ export const needs = (name: string, description?: string): Label => ({
 export function scope(name: string, description?: string): Label {
   return {
     name: `scope/${name}`,
-    color: '#3267c9',
+    color: '#8cdeff',
     description: description,
   }
 }
