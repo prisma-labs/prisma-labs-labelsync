@@ -8,7 +8,7 @@ export const github = repository({
   labels: {
     bug2: label({
       color: '#d73a4a',
-      description: "Something isn't working",
+      description: "Something isn't working!",
     }),
     documentation: label({
       color: '#0075ca',
