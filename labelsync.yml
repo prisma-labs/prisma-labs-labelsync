@@ -285,6 +285,8 @@ repos:
         color: 8cdeff
       scope/cicd:
         color: 8cdeff
+      type/epic:
+        color: FFCF2D
       type/meta:
         color: FFCF2D
       note/prisma1:

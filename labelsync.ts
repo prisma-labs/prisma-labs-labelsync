@@ -67,6 +67,7 @@ export default [
     destroyUnknownLabels: false,
     labels: [
       ...commonLabels,
+      type('epic',           '#FFCF2D', ''),
       type('meta',            '#FFCF2D', ''),
       note('prisma1',                    'specific to the version of nexus-prisma based on Prisma 1'),
       scope('architecture'),
