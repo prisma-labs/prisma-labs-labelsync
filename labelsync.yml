@@ -84,9 +84,9 @@ repos:
         color: 7057ff
         description: Good for newcomers
       scope/deps:
-        color: 72d0f9
+        color: 94ebfc
       scope/cicd:
-        color: 72d0f9
+        color: 94ebfc
       type/process:
         color: 7057ff
       type/epic:
@@ -96,15 +96,15 @@ repos:
       type/research:
         color: fcaeec
       scope/integration:
-        color: 72d0f9
+        color: 94ebfc
       scope/nextjs:
-        color: 72d0f9
+        color: 94ebfc
       scope/nexus:
-        color: 72d0f9
+        color: 94ebfc
       scope/tooling:
-        color: 72d0f9
+        color: 94ebfc
       scope/workflow:
-        color: 72d0f9
+        color: 94ebfc
   dripip:
     strict: false
     labels:
@@ -190,13 +190,13 @@ repos:
         color: 7057ff
         description: Good for newcomers
       scope/deps:
-        color: 72d0f9
+        color: 94ebfc
       scope/cicd:
-        color: 72d0f9
+        color: 94ebfc
       scope/doctor:
-        color: 72d0f9
+        color: 94ebfc
       scope/preview:
-        color: 72d0f9
+        color: 94ebfc
   tydoc:
     strict: false
     labels:
@@ -282,13 +282,13 @@ repos:
         color: 7057ff
         description: Good for newcomers
       scope/deps:
-        color: 72d0f9
+        color: 94ebfc
       scope/cicd:
-        color: 72d0f9
+        color: 94ebfc
       scope/extractor:
-        color: 72d0f9
+        color: 94ebfc
       scope/md:
-        color: 72d0f9
+        color: 94ebfc
   nexus-prisma:
     strict: false
     labels:
@@ -374,9 +374,9 @@ repos:
         color: 7057ff
         description: Good for newcomers
       scope/deps:
-        color: 72d0f9
+        color: 94ebfc
       scope/cicd:
-        color: 72d0f9
+        color: 94ebfc
       type/epic:
         color: 7057ff
       type/meta:
@@ -385,32 +385,32 @@ repos:
         color: EEEEEE
         description: specific to the version of nexus-prisma based on Prisma 1
       scope/architecture:
-        color: 72d0f9
+        color: 94ebfc
       scope/auth:
-        color: 72d0f9
+        color: 94ebfc
         description: Relates to Prisma crud/model auth
       scope/config:
-        color: 72d0f9
+        color: 94ebfc
       scope/crud:
-        color: 72d0f9
+        color: 94ebfc
       scope/distributed-data:
-        color: 72d0f9
+        color: 94ebfc
       scope/mapping:
-        color: 72d0f9
+        color: 94ebfc
       scope/projecting:
-        color: 72d0f9
+        color: 94ebfc
         description: Exposing Prisma Models in the GQL API
       scope/resolving:
-        color: 72d0f9
+        color: 94ebfc
         description: Relates to implementing resolvers
       scope/runtime-validation:
-        color: 72d0f9
+        color: 94ebfc
       scope/schema:
-        color: 72d0f9
+        color: 94ebfc
       scope/synchronized-projectors:
-        color: 72d0f9
+        color: 94ebfc
       scope/typegen:
-        color: 72d0f9
+        color: 94ebfc
         description: Relates to typegen/codegen systems
       scope/workflow:
-        color: 72d0f9
+        color: 94ebfc
