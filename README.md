@@ -3,13 +3,12 @@
 ### Usage
 
 1. Edit labels inside `labelsync.ts`
-2. `yarn make` (or just rely on the husky pre-commit script)
-3. Commit and push on `master` branch
+2. Commit and push on `master` branch (husky pre-commit script runs to update `labelsync.yml`)
 
 ### Development
 
-- We wrap `label-sync` library for easier label management
-- Changing our label system (e.g. new label category or change color of an existing category) can be done in `lib/builders.ts`.
+- We wrap `label-sync` library for easier label management `lib/labelsync-wrapper.ts`
+- Changing our label system (e.g. new label category or change color of an existing category) can be done in `lib/core.ts`.
 
 ### How it works
 
