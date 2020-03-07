@@ -5,7 +5,8 @@ export const theme = {
   refine: '#fcaeec',
   shiny: '#3BDB8D',
   semiShiny: '#9cedc6',
-  danger: '#E94B63',
+  danger: '#FF5D5D',
+  warning: '#FFCF2D',
   social: '#7057ff',
 }
 
@@ -69,7 +70,7 @@ export function effort(name: string): Label {
  */
 export const needs = (name: string, description?: string): Label => ({
   name: `needs/${name}`,
-  color: '#FFE601',
+  color: theme.warning,
   description: description,
 })
 
@@ -81,7 +82,7 @@ export const needs = (name: string, description?: string): Label => ({
 export function scope(name: string, description?: string): Label {
   return {
     name: `scope/${name}`,
-    color: '#8cdeff',
+    color: '#72d0f9',
     description: description,
   }
 }

@@ -11,7 +11,7 @@ repos:
           Something existing is made better, does not affect the interface
           (example: better error message)
       type/bug:
-        color: E94B63
+        color: FF5D5D
         description: Something is not working the way it should
       type/chore:
         color: fcaeec
@@ -59,21 +59,21 @@ repos:
       effort/easy:
         color: EEEEEE
       needs/upstream:
-        color: FFE601
+        color: FFCF2D
         description: An upstream component needs to be updated first
       needs/discussion:
-        color: FFE601
+        color: FFCF2D
         description: >-
           Open-ended conversation about something (ideation, design, analysis,
           ...)
       needs/clarification:
-        color: FFE601
+        color: FFCF2D
         description: Unable to answer question/feature without more info
       needs/investigation:
-        color: FFE601
+        color: FFCF2D
         description: 'Possibly an issue, needs more analysis/research'
       needs/use-cases:
-        color: FFE601
+        color: FFCF2D
         description: >-
           More motivating examples needed to understand/appreciate
           idea/tradeoffs
@@ -84,9 +84,9 @@ repos:
         color: 7057ff
         description: Good for newcomers
       scope/deps:
-        color: 8cdeff
+        color: 72d0f9
       scope/cicd:
-        color: 8cdeff
+        color: 72d0f9
       type/process:
         color: 7057ff
       type/epic:
@@ -96,15 +96,15 @@ repos:
       type/research:
         color: fcaeec
       scope/integration:
-        color: 8cdeff
+        color: 72d0f9
       scope/nextjs:
-        color: 8cdeff
+        color: 72d0f9
       scope/nexus:
-        color: 8cdeff
+        color: 72d0f9
       scope/tooling:
-        color: 8cdeff
+        color: 72d0f9
       scope/workflow:
-        color: 8cdeff
+        color: 72d0f9
   dripip:
     strict: false
     labels:
@@ -117,7 +117,7 @@ repos:
           Something existing is made better, does not affect the interface
           (example: better error message)
       type/bug:
-        color: E94B63
+        color: FF5D5D
         description: Something is not working the way it should
       type/chore:
         color: fcaeec
@@ -165,21 +165,21 @@ repos:
       effort/easy:
         color: EEEEEE
       needs/upstream:
-        color: FFE601
+        color: FFCF2D
         description: An upstream component needs to be updated first
       needs/discussion:
-        color: FFE601
+        color: FFCF2D
         description: >-
           Open-ended conversation about something (ideation, design, analysis,
           ...)
       needs/clarification:
-        color: FFE601
+        color: FFCF2D
         description: Unable to answer question/feature without more info
       needs/investigation:
-        color: FFE601
+        color: FFCF2D
         description: 'Possibly an issue, needs more analysis/research'
       needs/use-cases:
-        color: FFE601
+        color: FFCF2D
         description: >-
           More motivating examples needed to understand/appreciate
           idea/tradeoffs
@@ -190,13 +190,13 @@ repos:
         color: 7057ff
         description: Good for newcomers
       scope/deps:
-        color: 8cdeff
+        color: 72d0f9
       scope/cicd:
-        color: 8cdeff
+        color: 72d0f9
       scope/doctor:
-        color: 8cdeff
+        color: 72d0f9
       scope/preview:
-        color: 8cdeff
+        color: 72d0f9
   tydoc:
     strict: false
     labels:
@@ -209,7 +209,7 @@ repos:
           Something existing is made better, does not affect the interface
           (example: better error message)
       type/bug:
-        color: E94B63
+        color: FF5D5D
         description: Something is not working the way it should
       type/chore:
         color: fcaeec
@@ -257,21 +257,21 @@ repos:
       effort/easy:
         color: EEEEEE
       needs/upstream:
-        color: FFE601
+        color: FFCF2D
         description: An upstream component needs to be updated first
       needs/discussion:
-        color: FFE601
+        color: FFCF2D
         description: >-
           Open-ended conversation about something (ideation, design, analysis,
           ...)
       needs/clarification:
-        color: FFE601
+        color: FFCF2D
         description: Unable to answer question/feature without more info
       needs/investigation:
-        color: FFE601
+        color: FFCF2D
         description: 'Possibly an issue, needs more analysis/research'
       needs/use-cases:
-        color: FFE601
+        color: FFCF2D
         description: >-
           More motivating examples needed to understand/appreciate
           idea/tradeoffs
@@ -282,13 +282,13 @@ repos:
         color: 7057ff
         description: Good for newcomers
       scope/deps:
-        color: 8cdeff
+        color: 72d0f9
       scope/cicd:
-        color: 8cdeff
+        color: 72d0f9
       scope/extractor:
-        color: 8cdeff
+        color: 72d0f9
       scope/md:
-        color: 8cdeff
+        color: 72d0f9
   nexus-prisma:
     strict: false
     labels:
@@ -301,7 +301,7 @@ repos:
           Something existing is made better, does not affect the interface
           (example: better error message)
       type/bug:
-        color: E94B63
+        color: FF5D5D
         description: Something is not working the way it should
       type/chore:
         color: fcaeec
@@ -349,21 +349,21 @@ repos:
       effort/easy:
         color: EEEEEE
       needs/upstream:
-        color: FFE601
+        color: FFCF2D
         description: An upstream component needs to be updated first
       needs/discussion:
-        color: FFE601
+        color: FFCF2D
         description: >-
           Open-ended conversation about something (ideation, design, analysis,
           ...)
       needs/clarification:
-        color: FFE601
+        color: FFCF2D
         description: Unable to answer question/feature without more info
       needs/investigation:
-        color: FFE601
+        color: FFCF2D
         description: 'Possibly an issue, needs more analysis/research'
       needs/use-cases:
-        color: FFE601
+        color: FFCF2D
         description: >-
           More motivating examples needed to understand/appreciate
           idea/tradeoffs
@@ -374,9 +374,9 @@ repos:
         color: 7057ff
         description: Good for newcomers
       scope/deps:
-        color: 8cdeff
+        color: 72d0f9
       scope/cicd:
-        color: 8cdeff
+        color: 72d0f9
       type/epic:
         color: 7057ff
       type/meta:
@@ -385,32 +385,32 @@ repos:
         color: EEEEEE
         description: specific to the version of nexus-prisma based on Prisma 1
       scope/architecture:
-        color: 8cdeff
+        color: 72d0f9
       scope/auth:
-        color: 8cdeff
+        color: 72d0f9
         description: Relates to Prisma crud/model auth
       scope/config:
-        color: 8cdeff
+        color: 72d0f9
       scope/crud:
-        color: 8cdeff
+        color: 72d0f9
       scope/distributed-data:
-        color: 8cdeff
+        color: 72d0f9
       scope/mapping:
-        color: 8cdeff
+        color: 72d0f9
       scope/projecting:
-        color: 8cdeff
+        color: 72d0f9
         description: Exposing Prisma Models in the GQL API
       scope/resolving:
-        color: 8cdeff
+        color: 72d0f9
         description: Relates to implementing resolvers
       scope/runtime-validation:
-        color: 8cdeff
+        color: 72d0f9
       scope/schema:
-        color: 8cdeff
+        color: 72d0f9
       scope/synchronized-projectors:
-        color: 8cdeff
+        color: 72d0f9
       scope/typegen:
-        color: 8cdeff
+        color: 72d0f9
         description: Relates to typegen/codegen systems
       scope/workflow:
-        color: 8cdeff
+        color: 72d0f9
