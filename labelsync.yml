@@ -197,6 +197,98 @@ repos:
         color: 8cdeff
       scope/preview:
         color: 8cdeff
+  tydoc:
+    strict: false
+    labels:
+      type/feat:
+        color: 3BDB8D
+        description: Add a new capability or enhance an existing one
+      type/bug:
+        color: D73A4A
+        description: Something is not working the way it should
+      type/chore:
+        color: EEEEEE
+        description: 'Something that does not warrant a release, zero runtime impact'
+      type/perf:
+        color: FFCF2D
+        description: Improve the efficiency of something
+      type/docs:
+        color: FFCF2D
+        description: >-
+          Relates to knowledge transfer matter (refs, guides, tuts, examples,
+          ...)
+      type/tests:
+        color: FFCF2D
+        description: Internal tests
+      type/question:
+        color: FFCF2D
+      type/refactor:
+        color: fcaeec
+        description: 'Address tech debt, internal incidental complexity'
+      type/improve:
+        color: fcaeec
+        description: >-
+          Something existing is made better, does not affect the interface
+          (example: better error message)
+      note/user-resolved:
+        color: EEEEEE
+      note/invalid:
+        color: EEEEEE
+        description: Initial assumptions turned out wrong
+      note/wontfix:
+        color: EEEEEE
+        description: Resolving the issue was explicitly ruled out
+      note/duplicate:
+        color: EEEEEE
+        description: This issue existed already
+      note/breaking-change:
+        color: EEEEEE
+        description: This issue existed already
+      impact/high:
+        color: EEEEEE
+      impact/medium:
+        color: EEEEEE
+      impact/low:
+        color: EEEEEE
+      effort/hard:
+        color: EEEEEE
+      effort/modest:
+        color: EEEEEE
+      effort/easy:
+        color: EEEEEE
+      needs/upstream:
+        color: FFE601
+        description: An upstream component needs to be updated first
+      needs/discussion:
+        color: FFE601
+        description: >-
+          Open-ended conversation about something (ideation, design, analysis,
+          ...)
+      needs/clarification:
+        color: FFE601
+        description: Unable to answer question/feature without more info
+      needs/investigation:
+        color: FFE601
+        description: 'Possibly an issue, needs more analysis/research'
+      needs/use-cases:
+        color: FFE601
+        description: >-
+          More motivating examples needed to understand/appreciate
+          idea/tradeoffs
+      community/help-wanted:
+        color: 7057ff
+        description: 'Not our focus, but accepting PRs'
+      community/good-first-issue:
+        color: 7057ff
+        description: Good for newcomers
+      scope/deps:
+        color: 8cdeff
+      scope/cicd:
+        color: 8cdeff
+      scope/extractor:
+        color: 8cdeff
+      scope/md:
+        color: 8cdeff
   nexus-prisma:
     strict: false
     labels:

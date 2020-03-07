@@ -29,6 +29,15 @@ export default repos([
     ]
   },
   {
+    name: 'tydoc',
+    destroyUnknownLabels: false,
+    labels: [
+      ...commonLabels,
+      scope('extractor'),
+      scope('md'),
+    ]
+  },
+  {
     name: 'nexus-prisma',
     destroyUnknownLabels: false,
     labels: [
