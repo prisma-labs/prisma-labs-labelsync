@@ -1,7 +1,12 @@
 import { Label, Repo } from './labelsync-wrapper'
 
-const theme = {
+export const theme = {
   neutral: '#EEEEEE',
+  refine: '#fcaeec',
+  shiny: '#3BDB8D',
+  semiShiny: '#9cedc6',
+  danger: '#E94B63',
+  social: '#7057ff',
 }
 
 export function repos(data: Repo[]) {
@@ -87,27 +92,27 @@ export function scope(name: string, description?: string): Label {
 export function community(name: string, description?: string): Label {
   return {
     name: `community/${name}`,
-    color: '#7057ff',
+    color: theme.social,
     description: description,
   }
 }
 
 //prettier-ignore
 export const commonLabels = [
-  type('feat',            '#3BDB8D', 'Add a new capability or enhance an existing one'),
-  type('bug',             '#D73A4A', 'Something is not working the way it should'),
-  type('chore',           '#EEEEEE', 'Something that does not warrant a release, zero runtime impact'),
-  type('perf',            '#FFCF2D', 'Improve the efficiency of something'),
-  type('docs',            '#FFCF2D', 'Relates to knowledge transfer matter (refs, guides, tuts, examples, ...)'),
-  type('tests',           '#FFCF2D', 'Internal tests'),
-  type('question',        '#FFCF2D', ''),
-  type('refactor',        '#fcaeec', 'Address tech debt, internal incidental complexity'),
-  type('improve',         '#fcaeec', 'Something existing is made better, does not affect the interface (example: better error message)'),
-  note('user-resolved',              ''),
-  note('invalid',                    'Initial assumptions turned out wrong'),
-  note('wontfix',                    'Resolving the issue was explicitly ruled out'),
-  note('duplicate',                  'This issue existed already'),      
-  note('breaking-change',            'This issue existed already'), // todo consider color exception
+  type('feat',            theme.shiny,     'Add a new capability or enhance an existing one'),
+  type('improve',         theme.semiShiny, 'Something existing is made better, does not affect the interface (example: better error message)'),
+  type('bug',             theme.danger,    'Something is not working the way it should'),
+  type('chore',           theme.refine,    'Something that does not warrant a release, zero runtime impact'),
+  type('perf',            theme.refine,    'Improve the efficiency of something'),
+  type('docs',            theme.refine,    'Relates to knowledge transfer matter (refs, guides, tuts, examples, ...)'),
+  type('tests',           theme.refine,    'Internal tests'),
+  type('refactor',        theme.refine,    'Address tech debt, internal incidental complexity'),
+  type('question',        theme.social,    ''),
+  note('user-resolved',                    ''),
+  note('invalid',                          'Initial assumptions turned out wrong'),
+  note('wontfix',                          'Resolving the issue was explicitly ruled out'),
+  note('duplicate',                        'This issue existed already'),      
+  note('breaking-change',                  'This issue existed already'), // todo consider color exception
   impact('high'), // todo consider color highlight 
   impact('medium'),
   impact('low'),

@@ -1,4 +1,4 @@
-import { commonLabels, note, repos, scope, type } from './lib/core'
+import { commonLabels, note, repos, scope, theme, type } from './lib/core'
 
 //prettier-ignore
 export default repos([
@@ -7,11 +7,10 @@ export default repos([
     destroyUnknownLabels: false,
     labels: [
       ...commonLabels,
-      type('process',        '#FFCF2D', ''),
-      type('process',        '#FFCF2D', ''),
-      type('epic',           '#FFCF2D', ''),
-      type('new-product',    '#FFCF2D', ''),
-      type('research',       '#FFCF2D', ''),
+      type('process',        theme.social, ''),
+      type('epic',           theme.social, ''),
+      type('new-product',    theme.shiny,  ''),
+      type('research',       theme.refine, ''),
       scope('integration'),
       scope('nextjs'),
       scope('nexus'),
@@ -42,8 +41,8 @@ export default repos([
     destroyUnknownLabels: false,
     labels: [
       ...commonLabels,
-      type('epic',            '#FFCF2D', ''),
-      type('meta',            '#FFCF2D', ''),
+      type('epic',            theme.social,  ''),
+      type('meta',            theme.neutral, ''),
       note('prisma1',                    'specific to the version of nexus-prisma based on Prisma 1'),
       scope('architecture'),
       scope('auth',                      'Relates to Prisma crud/model auth'),

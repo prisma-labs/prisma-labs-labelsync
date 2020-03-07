@@ -5,33 +5,33 @@ repos:
       type/feat:
         color: 3BDB8D
         description: Add a new capability or enhance an existing one
+      type/improve:
+        color: 9cedc6
+        description: >-
+          Something existing is made better, does not affect the interface
+          (example: better error message)
       type/bug:
-        color: D73A4A
+        color: E94B63
         description: Something is not working the way it should
       type/chore:
-        color: EEEEEE
+        color: fcaeec
         description: 'Something that does not warrant a release, zero runtime impact'
       type/perf:
-        color: FFCF2D
+        color: fcaeec
         description: Improve the efficiency of something
       type/docs:
-        color: FFCF2D
+        color: fcaeec
         description: >-
           Relates to knowledge transfer matter (refs, guides, tuts, examples,
           ...)
       type/tests:
-        color: FFCF2D
+        color: fcaeec
         description: Internal tests
-      type/question:
-        color: FFCF2D
       type/refactor:
         color: fcaeec
         description: 'Address tech debt, internal incidental complexity'
-      type/improve:
-        color: fcaeec
-        description: >-
-          Something existing is made better, does not affect the interface
-          (example: better error message)
+      type/question:
+        color: 7057ff
       note/user-resolved:
         color: EEEEEE
       note/invalid:
@@ -88,13 +88,13 @@ repos:
       scope/cicd:
         color: 8cdeff
       type/process:
-        color: FFCF2D
+        color: 7057ff
       type/epic:
-        color: FFCF2D
+        color: 7057ff
       type/new-product:
-        color: FFCF2D
+        color: 3BDB8D
       type/research:
-        color: FFCF2D
+        color: fcaeec
       scope/integration:
         color: 8cdeff
       scope/nextjs:
@@ -111,33 +111,33 @@ repos:
       type/feat:
         color: 3BDB8D
         description: Add a new capability or enhance an existing one
+      type/improve:
+        color: 9cedc6
+        description: >-
+          Something existing is made better, does not affect the interface
+          (example: better error message)
       type/bug:
-        color: D73A4A
+        color: E94B63
         description: Something is not working the way it should
       type/chore:
-        color: EEEEEE
+        color: fcaeec
         description: 'Something that does not warrant a release, zero runtime impact'
       type/perf:
-        color: FFCF2D
+        color: fcaeec
         description: Improve the efficiency of something
       type/docs:
-        color: FFCF2D
+        color: fcaeec
         description: >-
           Relates to knowledge transfer matter (refs, guides, tuts, examples,
           ...)
       type/tests:
-        color: FFCF2D
+        color: fcaeec
         description: Internal tests
-      type/question:
-        color: FFCF2D
       type/refactor:
         color: fcaeec
         description: 'Address tech debt, internal incidental complexity'
-      type/improve:
-        color: fcaeec
-        description: >-
-          Something existing is made better, does not affect the interface
-          (example: better error message)
+      type/question:
+        color: 7057ff
       note/user-resolved:
         color: EEEEEE
       note/invalid:
@@ -203,33 +203,33 @@ repos:
       type/feat:
         color: 3BDB8D
         description: Add a new capability or enhance an existing one
+      type/improve:
+        color: 9cedc6
+        description: >-
+          Something existing is made better, does not affect the interface
+          (example: better error message)
       type/bug:
-        color: D73A4A
+        color: E94B63
         description: Something is not working the way it should
       type/chore:
-        color: EEEEEE
+        color: fcaeec
         description: 'Something that does not warrant a release, zero runtime impact'
       type/perf:
-        color: FFCF2D
+        color: fcaeec
         description: Improve the efficiency of something
       type/docs:
-        color: FFCF2D
+        color: fcaeec
         description: >-
           Relates to knowledge transfer matter (refs, guides, tuts, examples,
           ...)
       type/tests:
-        color: FFCF2D
+        color: fcaeec
         description: Internal tests
-      type/question:
-        color: FFCF2D
       type/refactor:
         color: fcaeec
         description: 'Address tech debt, internal incidental complexity'
-      type/improve:
-        color: fcaeec
-        description: >-
-          Something existing is made better, does not affect the interface
-          (example: better error message)
+      type/question:
+        color: 7057ff
       note/user-resolved:
         color: EEEEEE
       note/invalid:
@@ -295,33 +295,33 @@ repos:
       type/feat:
         color: 3BDB8D
         description: Add a new capability or enhance an existing one
+      type/improve:
+        color: 9cedc6
+        description: >-
+          Something existing is made better, does not affect the interface
+          (example: better error message)
       type/bug:
-        color: D73A4A
+        color: E94B63
         description: Something is not working the way it should
       type/chore:
-        color: EEEEEE
+        color: fcaeec
         description: 'Something that does not warrant a release, zero runtime impact'
       type/perf:
-        color: FFCF2D
+        color: fcaeec
         description: Improve the efficiency of something
       type/docs:
-        color: FFCF2D
+        color: fcaeec
         description: >-
           Relates to knowledge transfer matter (refs, guides, tuts, examples,
           ...)
       type/tests:
-        color: FFCF2D
+        color: fcaeec
         description: Internal tests
-      type/question:
-        color: FFCF2D
       type/refactor:
         color: fcaeec
         description: 'Address tech debt, internal incidental complexity'
-      type/improve:
-        color: fcaeec
-        description: >-
-          Something existing is made better, does not affect the interface
-          (example: better error message)
+      type/question:
+        color: 7057ff
       note/user-resolved:
         color: EEEEEE
       note/invalid:
@@ -378,9 +378,9 @@ repos:
       scope/cicd:
         color: 8cdeff
       type/epic:
-        color: FFCF2D
+        color: 7057ff
       type/meta:
-        color: FFCF2D
+        color: EEEEEE
       note/prisma1:
         color: EEEEEE
         description: specific to the version of nexus-prisma based on Prisma 1
