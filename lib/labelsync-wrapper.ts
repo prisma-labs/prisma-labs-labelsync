@@ -1,39 +1,43 @@
-import { configuration, label, make, repository } from 'label-sync'
+import { labelsync } from 'label-sync'
+import { Label as LabeLabelSyncLabel, Repository } from 'label-sync/dist/generator'
+import { LabelSyncConfig } from 'label-sync/dist/make'
 
 export interface Repo {
   destroyUnknownLabels: boolean
   labels: Label[]
   name: string
 }
+
 export interface Label {
   name: string
   color: string
   description?: string
+  alias?: string[]
+  siblings?: string[]
 }
 
-function toLabelSyncLabels(data: Label[]) {
-  return data.reduce((labels, { name, color, description }) => {
-    labels[name] = label({ color, description: description ?? '' })
-    return labels
-  }, {})
-}
-
-function toLabelSyncRepos(inputs: Repo[]) {
-  return inputs.reduce((repos, { destroyUnknownLabels, name, labels }) => {
-    repos[name] = repository({
-      strict: destroyUnknownLabels,
-      labels: toLabelSyncLabels(labels),
-    })
-    return repos
-  }, {})
+function toLabelSyncConfig(inputs: Repo[]): LabelSyncConfig {
+  return {
+    repos: inputs.reduce((repos, { destroyUnknownLabels, name, labels }) => {
+      repos[name] = new Repository({
+        config: {
+          removeUnconfiguredLabels: destroyUnknownLabels,
+        },
+        labels: labels.map(({ name, color, description, alias, siblings }) => {
+          return new LabeLabelSyncLabel({
+            color: color,
+            name: name,
+            description: description ?? '',
+            alias: alias,
+            siblings: siblings,
+          })
+        }),
+      })
+      return repos
+    }, {} as LabelSyncConfig['repos']),
+  }
 }
 
 export function generate(repos: Repo[]) {
-  make({
-    configs: [
-      configuration({
-        repositories: toLabelSyncRepos(repos),
-      }),
-    ],
-  })
+  return labelsync(toLabelSyncConfig(repos))
 }

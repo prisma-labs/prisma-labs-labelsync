@@ -1,291 +1,537 @@
 repos:
   team:
-    strict: false
+    config:
+      removeUnconfiguredLabels: false
     labels:
-      type/feat:
-        color: 3BDB8D
-        description: Add a new capability or enhance an existing one
-      type/improve:
-        color: 9cedc6
-        description: >-
-          Something existing is made better, does not affect the interface
-          (example: better error message)
-      type/bug:
-        color: FF5D5D
-        description: Something is not working the way it should
-      type/chore:
-        color: fcaeec
-        description: 'Something that does not warrant a release, zero runtime impact'
-      type/perf:
-        color: fcaeec
-        description: Improve the efficiency of something
-      type/docs:
-        color: fcaeec
-        description: >-
-          Relates to knowledge transfer matter (refs, guides, tuts, examples,
-          ...)
-      type/tests:
-        color: fcaeec
-        description: Internal tests
-      type/refactor:
-        color: fcaeec
-        description: 'Address tech debt, internal incidental complexity'
-      type/question:
-        color: 7057ff
-      note/user-resolved:
-        color: EEEEEE
-      note/invalid:
-        color: EEEEEE
-        description: Initial assumptions turned out wrong
-      note/wontfix:
-        color: EEEEEE
-        description: Resolving the issue was explicitly ruled out
-      note/duplicate:
-        color: EEEEEE
-        description: This issue existed already
-      note/breaking-change:
-        color: EEEEEE
-        description: This issue existed already
-      impact/high:
-        color: EEEEEE
-      impact/medium:
-        color: EEEEEE
-      impact/low:
-        color: EEEEEE
-      effort/hard:
-        color: EEEEEE
-      effort/modest:
-        color: EEEEEE
-      effort/easy:
-        color: EEEEEE
-      needs/upstream:
-        color: FFCF2D
-        description: An upstream component needs to be updated first
-      needs/discussion:
-        color: FFCF2D
-        description: >-
-          Open-ended conversation about something (ideation, design, analysis,
-          ...)
-      needs/clarification:
-        color: FFCF2D
-        description: Unable to answer question/feature without more info
-      needs/investigation:
-        color: FFCF2D
-        description: 'Possibly an issue, needs more analysis/research'
-      needs/use-cases:
-        color: FFCF2D
-        description: >-
-          More motivating examples needed to understand/appreciate
-          idea/tradeoffs
-      community/help-wanted:
-        color: 7057ff
-        description: 'Not our focus, but accepting PRs'
-      community/good-first-issue:
-        color: 7057ff
-        description: Good for newcomers
-      scope/deps:
-        color: 94ebfc
-      scope/cicd:
-        color: 94ebfc
       type/process:
-        color: 7057ff
+        color: '#7057ff'
+        description: ''
+        alias: []
+        siblings: []
       type/epic:
-        color: 7057ff
+        color: '#7057ff'
+        description: ''
+        alias: []
+        siblings: []
       type/new-product:
-        color: 3BDB8D
+        color: '#3BDB8D'
+        description: ''
+        alias: []
+        siblings: []
       type/research:
-        color: fcaeec
+        color: '#fcaeec'
+        description: ''
+        alias: []
+        siblings: []
       scope/integration:
-        color: 94ebfc
+        color: '#94ebfc'
+        description: ''
+        alias: []
+        siblings: []
       scope/nextjs:
-        color: 94ebfc
+        color: '#94ebfc'
+        description: ''
+        alias: []
+        siblings: []
       scope/nexus:
-        color: 94ebfc
+        color: '#94ebfc'
+        description: ''
+        alias: []
+        siblings: []
       scope/tooling:
-        color: 94ebfc
+        color: '#94ebfc'
+        description: ''
+        alias: []
+        siblings: []
       scope/workflow:
-        color: 94ebfc
+        color: '#94ebfc'
+        description: ''
+        alias: []
+        siblings: []
+      type/feat:
+        color: '#3BDB8D'
+        description: Add a new capability or enhance an existing one
+        alias: []
+        siblings: []
+      type/improve:
+        color: '#9cedc6'
+        description: >-
+          Something existing is made better, does not affect the interface
+          (example: better error message)
+        alias: []
+        siblings: []
+      type/bug:
+        color: '#FF5D5D'
+        description: Something is not working the way it should
+        alias: []
+        siblings: []
+      type/chore:
+        color: '#fcaeec'
+        description: 'Something that does not warrant a release, zero runtime impact'
+        alias: []
+        siblings: []
+      type/perf:
+        color: '#fcaeec'
+        description: Improve the efficiency of something
+        alias: []
+        siblings: []
+      type/docs:
+        color: '#fcaeec'
+        description: >-
+          Relates to knowledge transfer matter (refs, guides, tuts, examples,
+          ...)
+        alias: []
+        siblings: []
+      type/tests:
+        color: '#fcaeec'
+        description: Internal tests
+        alias: []
+        siblings: []
+      type/refactor:
+        color: '#fcaeec'
+        description: 'Address tech debt, internal incidental complexity'
+        alias: []
+        siblings: []
+      type/question:
+        color: '#7057ff'
+        description: ''
+        alias: []
+        siblings: []
+      note/user-resolved:
+        color: '#EEEEEE'
+        description: ''
+        alias: []
+        siblings: []
+      note/invalid:
+        color: '#EEEEEE'
+        description: Initial assumptions turned out wrong
+        alias: []
+        siblings: []
+      note/wontfix:
+        color: '#EEEEEE'
+        description: Resolving the issue was explicitly ruled out
+        alias: []
+        siblings: []
+      note/duplicate:
+        color: '#EEEEEE'
+        description: This issue existed already
+        alias: []
+        siblings: []
+      note/breaking-change:
+        color: '#EEEEEE'
+        description: This issue existed already
+        alias: []
+        siblings: []
+      impact/high:
+        color: '#EEEEEE'
+        description: ''
+        alias: []
+        siblings: []
+      impact/medium:
+        color: '#EEEEEE'
+        description: ''
+        alias: []
+        siblings: []
+      impact/low:
+        color: '#EEEEEE'
+        description: ''
+        alias: []
+        siblings: []
+      effort/hard:
+        color: '#EEEEEE'
+        description: ''
+        alias: []
+        siblings: []
+      effort/modest:
+        color: '#EEEEEE'
+        description: ''
+        alias: []
+        siblings: []
+      effort/easy:
+        color: '#EEEEEE'
+        description: ''
+        alias: []
+        siblings: []
+      needs/upstream:
+        color: '#FFCF2D'
+        description: An upstream component needs to be updated first
+        alias: []
+        siblings: []
+      needs/discussion:
+        color: '#FFCF2D'
+        description: >-
+          Open-ended conversation about something (ideation, design, analysis,
+          ...)
+        alias: []
+        siblings: []
+      needs/clarification:
+        color: '#FFCF2D'
+        description: Unable to answer question/feature without more info
+        alias: []
+        siblings: []
+      needs/investigation:
+        color: '#FFCF2D'
+        description: 'Possibly an issue, needs more analysis/research'
+        alias: []
+        siblings: []
+      needs/use-cases:
+        color: '#FFCF2D'
+        description: >-
+          More motivating examples needed to understand/appreciate
+          idea/tradeoffs
+        alias: []
+        siblings: []
+      community/help-wanted:
+        color: '#7057ff'
+        description: 'Not our focus, but accepting PRs'
+        alias: []
+        siblings: []
+      community/good-first-issue:
+        color: '#7057ff'
+        description: Good for newcomers
+        alias: []
+        siblings: []
+      scope/deps:
+        color: '#94ebfc'
+        description: ''
+        alias: []
+        siblings: []
+      scope/cicd:
+        color: '#94ebfc'
+        description: ''
+        alias: []
+        siblings: []
   dripip:
-    strict: false
+    config:
+      removeUnconfiguredLabels: false
     labels:
-      type/feat:
-        color: 3BDB8D
-        description: Add a new capability or enhance an existing one
-      type/improve:
-        color: 9cedc6
-        description: >-
-          Something existing is made better, does not affect the interface
-          (example: better error message)
-      type/bug:
-        color: FF5D5D
-        description: Something is not working the way it should
-      type/chore:
-        color: fcaeec
-        description: 'Something that does not warrant a release, zero runtime impact'
-      type/perf:
-        color: fcaeec
-        description: Improve the efficiency of something
-      type/docs:
-        color: fcaeec
-        description: >-
-          Relates to knowledge transfer matter (refs, guides, tuts, examples,
-          ...)
-      type/tests:
-        color: fcaeec
-        description: Internal tests
-      type/refactor:
-        color: fcaeec
-        description: 'Address tech debt, internal incidental complexity'
-      type/question:
-        color: 7057ff
-      note/user-resolved:
-        color: EEEEEE
-      note/invalid:
-        color: EEEEEE
-        description: Initial assumptions turned out wrong
-      note/wontfix:
-        color: EEEEEE
-        description: Resolving the issue was explicitly ruled out
-      note/duplicate:
-        color: EEEEEE
-        description: This issue existed already
-      note/breaking-change:
-        color: EEEEEE
-        description: This issue existed already
-      impact/high:
-        color: EEEEEE
-      impact/medium:
-        color: EEEEEE
-      impact/low:
-        color: EEEEEE
-      effort/hard:
-        color: EEEEEE
-      effort/modest:
-        color: EEEEEE
-      effort/easy:
-        color: EEEEEE
-      needs/upstream:
-        color: FFCF2D
-        description: An upstream component needs to be updated first
-      needs/discussion:
-        color: FFCF2D
-        description: >-
-          Open-ended conversation about something (ideation, design, analysis,
-          ...)
-      needs/clarification:
-        color: FFCF2D
-        description: Unable to answer question/feature without more info
-      needs/investigation:
-        color: FFCF2D
-        description: 'Possibly an issue, needs more analysis/research'
-      needs/use-cases:
-        color: FFCF2D
-        description: >-
-          More motivating examples needed to understand/appreciate
-          idea/tradeoffs
-      community/help-wanted:
-        color: 7057ff
-        description: 'Not our focus, but accepting PRs'
-      community/good-first-issue:
-        color: 7057ff
-        description: Good for newcomers
-      scope/deps:
-        color: 94ebfc
-      scope/cicd:
-        color: 94ebfc
       scope/doctor:
-        color: 94ebfc
+        color: '#94ebfc'
+        description: ''
+        alias: []
+        siblings: []
       scope/preview:
-        color: 94ebfc
-  tydoc:
-    strict: false
-    labels:
+        color: '#94ebfc'
+        description: ''
+        alias: []
+        siblings: []
       type/feat:
-        color: 3BDB8D
+        color: '#3BDB8D'
         description: Add a new capability or enhance an existing one
+        alias: []
+        siblings: []
       type/improve:
-        color: 9cedc6
+        color: '#9cedc6'
         description: >-
           Something existing is made better, does not affect the interface
           (example: better error message)
+        alias: []
+        siblings: []
       type/bug:
-        color: FF5D5D
+        color: '#FF5D5D'
         description: Something is not working the way it should
+        alias: []
+        siblings: []
       type/chore:
-        color: fcaeec
+        color: '#fcaeec'
         description: 'Something that does not warrant a release, zero runtime impact'
+        alias: []
+        siblings: []
       type/perf:
-        color: fcaeec
+        color: '#fcaeec'
         description: Improve the efficiency of something
+        alias: []
+        siblings: []
       type/docs:
-        color: fcaeec
+        color: '#fcaeec'
         description: >-
           Relates to knowledge transfer matter (refs, guides, tuts, examples,
           ...)
+        alias: []
+        siblings: []
       type/tests:
-        color: fcaeec
+        color: '#fcaeec'
         description: Internal tests
+        alias: []
+        siblings: []
       type/refactor:
-        color: fcaeec
+        color: '#fcaeec'
         description: 'Address tech debt, internal incidental complexity'
+        alias: []
+        siblings: []
       type/question:
-        color: 7057ff
+        color: '#7057ff'
+        description: ''
+        alias: []
+        siblings: []
       note/user-resolved:
-        color: EEEEEE
+        color: '#EEEEEE'
+        description: ''
+        alias: []
+        siblings: []
       note/invalid:
-        color: EEEEEE
+        color: '#EEEEEE'
         description: Initial assumptions turned out wrong
+        alias: []
+        siblings: []
       note/wontfix:
-        color: EEEEEE
+        color: '#EEEEEE'
         description: Resolving the issue was explicitly ruled out
+        alias: []
+        siblings: []
       note/duplicate:
-        color: EEEEEE
+        color: '#EEEEEE'
         description: This issue existed already
+        alias: []
+        siblings: []
       note/breaking-change:
-        color: EEEEEE
+        color: '#EEEEEE'
         description: This issue existed already
+        alias: []
+        siblings: []
       impact/high:
-        color: EEEEEE
+        color: '#EEEEEE'
+        description: ''
+        alias: []
+        siblings: []
       impact/medium:
-        color: EEEEEE
+        color: '#EEEEEE'
+        description: ''
+        alias: []
+        siblings: []
       impact/low:
-        color: EEEEEE
+        color: '#EEEEEE'
+        description: ''
+        alias: []
+        siblings: []
       effort/hard:
-        color: EEEEEE
+        color: '#EEEEEE'
+        description: ''
+        alias: []
+        siblings: []
       effort/modest:
-        color: EEEEEE
+        color: '#EEEEEE'
+        description: ''
+        alias: []
+        siblings: []
       effort/easy:
-        color: EEEEEE
+        color: '#EEEEEE'
+        description: ''
+        alias: []
+        siblings: []
       needs/upstream:
-        color: FFCF2D
+        color: '#FFCF2D'
         description: An upstream component needs to be updated first
+        alias: []
+        siblings: []
       needs/discussion:
-        color: FFCF2D
+        color: '#FFCF2D'
         description: >-
           Open-ended conversation about something (ideation, design, analysis,
           ...)
+        alias: []
+        siblings: []
       needs/clarification:
-        color: FFCF2D
+        color: '#FFCF2D'
         description: Unable to answer question/feature without more info
+        alias: []
+        siblings: []
       needs/investigation:
-        color: FFCF2D
+        color: '#FFCF2D'
         description: 'Possibly an issue, needs more analysis/research'
+        alias: []
+        siblings: []
       needs/use-cases:
-        color: FFCF2D
+        color: '#FFCF2D'
         description: >-
           More motivating examples needed to understand/appreciate
           idea/tradeoffs
+        alias: []
+        siblings: []
       community/help-wanted:
-        color: 7057ff
+        color: '#7057ff'
         description: 'Not our focus, but accepting PRs'
+        alias: []
+        siblings: []
       community/good-first-issue:
-        color: 7057ff
+        color: '#7057ff'
         description: Good for newcomers
+        alias: []
+        siblings: []
       scope/deps:
-        color: 94ebfc
+        color: '#94ebfc'
+        description: ''
+        alias: []
+        siblings: []
       scope/cicd:
-        color: 94ebfc
+        color: '#94ebfc'
+        description: ''
+        alias: []
+        siblings: []
+  tydoc:
+    config:
+      removeUnconfiguredLabels: false
+    labels:
       scope/extractor:
-        color: 94ebfc
+        color: '#94ebfc'
+        description: ''
+        alias: []
+        siblings: []
       scope/md:
-        color: 94ebfc
+        color: '#94ebfc'
+        description: ''
+        alias: []
+        siblings: []
+      type/feat:
+        color: '#3BDB8D'
+        description: Add a new capability or enhance an existing one
+        alias: []
+        siblings: []
+      type/improve:
+        color: '#9cedc6'
+        description: >-
+          Something existing is made better, does not affect the interface
+          (example: better error message)
+        alias: []
+        siblings: []
+      type/bug:
+        color: '#FF5D5D'
+        description: Something is not working the way it should
+        alias: []
+        siblings: []
+      type/chore:
+        color: '#fcaeec'
+        description: 'Something that does not warrant a release, zero runtime impact'
+        alias: []
+        siblings: []
+      type/perf:
+        color: '#fcaeec'
+        description: Improve the efficiency of something
+        alias: []
+        siblings: []
+      type/docs:
+        color: '#fcaeec'
+        description: >-
+          Relates to knowledge transfer matter (refs, guides, tuts, examples,
+          ...)
+        alias: []
+        siblings: []
+      type/tests:
+        color: '#fcaeec'
+        description: Internal tests
+        alias: []
+        siblings: []
+      type/refactor:
+        color: '#fcaeec'
+        description: 'Address tech debt, internal incidental complexity'
+        alias: []
+        siblings: []
+      type/question:
+        color: '#7057ff'
+        description: ''
+        alias: []
+        siblings: []
+      note/user-resolved:
+        color: '#EEEEEE'
+        description: ''
+        alias: []
+        siblings: []
+      note/invalid:
+        color: '#EEEEEE'
+        description: Initial assumptions turned out wrong
+        alias: []
+        siblings: []
+      note/wontfix:
+        color: '#EEEEEE'
+        description: Resolving the issue was explicitly ruled out
+        alias: []
+        siblings: []
+      note/duplicate:
+        color: '#EEEEEE'
+        description: This issue existed already
+        alias: []
+        siblings: []
+      note/breaking-change:
+        color: '#EEEEEE'
+        description: This issue existed already
+        alias: []
+        siblings: []
+      impact/high:
+        color: '#EEEEEE'
+        description: ''
+        alias: []
+        siblings: []
+      impact/medium:
+        color: '#EEEEEE'
+        description: ''
+        alias: []
+        siblings: []
+      impact/low:
+        color: '#EEEEEE'
+        description: ''
+        alias: []
+        siblings: []
+      effort/hard:
+        color: '#EEEEEE'
+        description: ''
+        alias: []
+        siblings: []
+      effort/modest:
+        color: '#EEEEEE'
+        description: ''
+        alias: []
+        siblings: []
+      effort/easy:
+        color: '#EEEEEE'
+        description: ''
+        alias: []
+        siblings: []
+      needs/upstream:
+        color: '#FFCF2D'
+        description: An upstream component needs to be updated first
+        alias: []
+        siblings: []
+      needs/discussion:
+        color: '#FFCF2D'
+        description: >-
+          Open-ended conversation about something (ideation, design, analysis,
+          ...)
+        alias: []
+        siblings: []
+      needs/clarification:
+        color: '#FFCF2D'
+        description: Unable to answer question/feature without more info
+        alias: []
+        siblings: []
+      needs/investigation:
+        color: '#FFCF2D'
+        description: 'Possibly an issue, needs more analysis/research'
+        alias: []
+        siblings: []
+      needs/use-cases:
+        color: '#FFCF2D'
+        description: >-
+          More motivating examples needed to understand/appreciate
+          idea/tradeoffs
+        alias: []
+        siblings: []
+      community/help-wanted:
+        color: '#7057ff'
+        description: 'Not our focus, but accepting PRs'
+        alias: []
+        siblings: []
+      community/good-first-issue:
+        color: '#7057ff'
+        description: Good for newcomers
+        alias: []
+        siblings: []
+      scope/deps:
+        color: '#94ebfc'
+        description: ''
+        alias: []
+        siblings: []
+      scope/cicd:
+        color: '#94ebfc'
+        description: ''
+        alias: []
+        siblings: []

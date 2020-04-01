@@ -17,17 +17,28 @@ export function repos(data: Repo[]) {
   return data
 }
 
+interface ExtraOptions {
+  siblings?: string[]
+  aliases?: string[]
+}
+
 /**
  * Based off conventional commit notion of type. The kind of issue.
  * These labels may get their own colour to help visually differentiate
  * between them faster. The commit that closes this issue should generally
  * be of the same type as this label.
  */
-export function type(name: string, color: string, description: string): Label {
+export function type(
+  name: string,
+  color: string,
+  description: string,
+  extraOptions?: ExtraOptions,
+): Label {
   return {
     name: `type/${name}`,
     color: color,
     description: description,
+    ...extraOptions,
   }
 }
 
@@ -35,11 +46,12 @@ export function type(name: string, color: string, description: string): Label {
  * Labels that help us track issue short-circuites or other minimal
  * categorical details.
  */
-export function note(name: string, description?: string): Label {
+export function note(name: string, description?: string, extraOptions?: ExtraOptions): Label {
   return {
     name: `note/${name}`,
     color: theme.neutral,
     description: description,
+    ...extraOptions,
   }
 }
 
@@ -47,10 +59,11 @@ export function note(name: string, description?: string): Label {
  * Labels that help us track how impactful issues will be. Combined
  * with complexity label, helps inform prioritization.
  */
-export function impact(name: string): Label {
+export function impact(name: string, extraOptions?: ExtraOptions): Label {
   return {
     name: `impact/${name}`,
     color: theme.neutral,
+    ...extraOptions,
   }
 }
 
@@ -58,20 +71,22 @@ export function impact(name: string): Label {
  * Effort that help us track how impactful issues will be. Combined
  * with complexity label, helps inform prioritization.
  */
-export function effort(name: string): Label {
+export function effort(name: string, extraOptions?: ExtraOptions): Label {
   return {
     name: `effort/${name}`,
     color: theme.neutral,
+    ...extraOptions,
   }
 }
 
 /**
  * Labels that help us mark issues as being on hold for some reason.
  */
-export const needs = (name: string, description?: string): Label => ({
+export const needs = (name: string, description?: string, extraOptions?: ExtraOptions): Label => ({
   name: `needs/${name}`,
   color: theme.warning,
   description: description,
+  ...extraOptions,
 })
 
 /**
@@ -79,22 +94,24 @@ export const needs = (name: string, description?: string): Label => ({
  * the project does the issue touch. The commit that closes this issue
  * should generally be of the same scope as this label.
  */
-export function scope(name: string, description?: string): Label {
+export function scope(name: string, description?: string, extraOptions?: ExtraOptions): Label {
   return {
     name: `scope/${name}`,
     color: '#94ebfc',
     description: description,
+    ...extraOptions,
   }
 }
 
 /**
  * Labels that help us coordinate with the community.
  */
-export function community(name: string, description?: string): Label {
+export function community(name: string, description?: string, extraOptions?: ExtraOptions): Label {
   return {
     name: `community/${name}`,
     color: theme.social,
     description: description,
+    ...extraOptions,
   }
 }
 

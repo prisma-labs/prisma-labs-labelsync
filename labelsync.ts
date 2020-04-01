@@ -1,4 +1,4 @@
-import { commonLabels, repos, scope, theme, type } from './lib/core'
+import { repos, scope, theme, type } from './lib/core'
 
 //prettier-ignore
 export default repos([
@@ -6,7 +6,6 @@ export default repos([
     name: 'team',
     destroyUnknownLabels: false,
     labels: [
-      ...commonLabels,
       type('process',        theme.social, ''),
       type('epic',           theme.social, ''),
       type('new-product',    theme.shiny,  ''),
@@ -22,7 +21,6 @@ export default repos([
     name: 'dripip',
     destroyUnknownLabels: false,
     labels: [
-      ...commonLabels,
       scope('doctor'),
       scope('preview'),
     ]
@@ -31,7 +29,6 @@ export default repos([
     name: 'tydoc',
     destroyUnknownLabels: false,
     labels: [
-      ...commonLabels,
       scope('extractor'),
       scope('md'),
     ]
