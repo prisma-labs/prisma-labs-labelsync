@@ -18,8 +18,8 @@ export function repos(data: Repo[]) {
 }
 
 interface ExtraOptions {
-  siblings?: string[]
-  aliases?: string[]
+  siblings?: Label['siblings']
+  alias?: Label['alias']
 }
 
 /**
