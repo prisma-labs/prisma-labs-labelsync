@@ -125,6 +125,7 @@ export const commonLabels = [
   type('docs',            theme.refine,    'Relates to knowledge transfer matter (refs, guides, tuts, examples, ...)'),
   type('tests',           theme.refine,    'Internal tests'),
   type('refactor',        theme.refine,    'Address tech debt, internal incidental complexity'),
+  type('deps',            theme.refine,    'A dependency upgrade visible to users (so, not devDeps)'),
   type('question',        theme.social,    ''),
   note('user-resolved',                    ''),
   note('invalid',                          'Initial assumptions turned out wrong'),
