@@ -225,6 +225,11 @@ repos:
         description: ''
         alias: []
         siblings: []
+      scope/conventional-commit:
+        color: '#94ebfc'
+        description: ''
+        alias: []
+        siblings: []
       type/feat:
         color: '#3BDB8D'
         description: Add a new capability or enhance an existing one

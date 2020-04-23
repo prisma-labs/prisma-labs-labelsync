@@ -24,6 +24,7 @@ export default repos([
       scope('doctor'),
       scope('preview'),
       scope('bootstrapping'),
+      scope('conventional-commit'),
     ]
   },
   {
