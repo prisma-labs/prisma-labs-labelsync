@@ -220,6 +220,11 @@ repos:
         description: ''
         alias: []
         siblings: []
+      scope/release-notes:
+        color: '#94ebfc'
+        description: ''
+        alias: []
+        siblings: []
       scope/bootstrapping:
         color: '#94ebfc'
         description: ''

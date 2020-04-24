@@ -23,6 +23,7 @@ export default repos([
     labels: [
       scope('doctor'),
       scope('preview'),
+      scope('release-notes'),
       scope('bootstrapping'),
       scope('conventional-commit'),
     ]
